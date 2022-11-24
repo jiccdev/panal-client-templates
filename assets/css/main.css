@@ -54,45 +54,6 @@ section {
   background-color: #f5f6f7;
 }
 
-.section-header {
-  text-align: center;
-  padding-bottom: 70px;
-}
-
-.section-header h2 {
-  font-size: 32px;
-  font-weight: 700;
-  position: relative;
-  color: #2e3135;
-}
-
-.section-header h2:before,
-.section-header h2:after {
-  content: '';
-  width: 50px;
-  height: 2px;
-  background: var(--color-primary);
-  display: inline-block;
-}
-
-.section-header h2:before {
-  margin: 0 15px 10px 0;
-}
-
-.section-header h2:after {
-  margin: 0 0 10px 15px;
-}
-
-.section-header p {
-  margin: 0 auto 0 auto;
-}
-
-@media (min-width: 1199px) {
-  .section-header p {
-    max-width: 60%;
-  }
-}
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -289,18 +250,23 @@ section {
   top: 0;
   left: 0;
   right: 0;
+  /* background: rgba(65, 65, 65, 0.199);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px; */
 }
 
 .header .logo img {
   max-height: 40px;
   margin-right: 6px;
+  margin-bottom: 0.5rem !important;
 }
 
 .header .logo h1 {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   font-family: var(--font-primary);
 }
 
@@ -792,16 +758,11 @@ section {
 --------------------------------------------------------------*/
 .outstanding-properties .container {
   padding: 3rem 0;
-  /* background-color: #3d3d3d; */
   border-radius: 10px;
-  /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); */
 }
 
-.outstanding-properties .container h2 {
-  color: #222222;
-  font-size: 27px;
-  font-weight: 600;
-  text-align: center;
+.outstanding-properties small i {
+  font-size: 1.2rem;
 }
 
 .property-item {
@@ -2819,12 +2780,38 @@ footer .container .footer-nav {
   padding: 1.5rem;
 }
 
+/* form contact corredor */
+.advanced-search.bg-section {
+  background-color: rgb(255, 255, 255);
+  color: #000 !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
 .advanced-search h3 {
   font-size: 1rem;
   font-weight: 600;
   margin: 1.5rem 0 !important;
   color: white;
   text-transform: uppercase;
+}
+
+.btn-default {
+  font-size: 16px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: none;
+  border-radius: 40px;
+  background-color: #3d3d3d;
+  transition: all 0.3s ease 0s;
+  width: 85%;
+  margin: 1rem 0;
+  padding: 0.8rem;
+}
+
+.btn-default:hover {
+  background-color: #4e4e4e;
+  color: white;
 }
 
 /* Properties */
@@ -2892,4 +2879,17 @@ footer .container .footer-nav {
   background-color: rgb(238, 238, 238);
   outline: none;
   border-radius: 20px;
+}
+
+/*--------------------------------------------------------------
+# Pagination
+--------------------------------------------------------------*/
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  padding: 2rem 0;
 }

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Inicio - Clientes Panal</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="/assets/lib/animate/animate.min.css" rel="stylesheet" />
+
+    <link
+      href="/assets/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="/assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="/assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="/assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="/assets/css/normalize.css" rel="stylesheet" />
+    <link href="/assets/css/main.css" rel="stylesheet" />
+    <link href="/assets/css/page-2/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center bg-header">
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1>LOGO</h1>
+        </a>
+
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html" class="active">¿Quienes somos?</a></li>
+            <li><a href="properties.html">Propiedades</a></li>
+            <li><a href="contact.html">Contáctanos</a></li>
+            <li><a href="intranet.html">Intranet</a></li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero">
+      <div class="info d-flex align-items-center">
+        <div class="container">
+          <div class="col-lg-10 text-center">
+            <!-- centrar relativo al bg -->
+            <!-- ======= Filter search Section ======= -->
+            <div class="m-3 bg-section">
+              <div
+                class="container d-flex justify-content-center"
+                data-aos="fade-up"
+              >
+                <form class="row g-2">
+                  <div class="col-md-6">
+                    <select class="form-select border py-3">
+                      <option selected>Tipo de Operación</option>
+                      <option value="1">Tipo de Operación 1</option>
+                      <option value="2">Tipo de Operación 2</option>
+                      <option value="3">Tipo de Operación 3</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6">
+                    <select class="form-select py-3">
+                      <option selected>Región</option>
+                      <option value="1">Región 1</option>
+                      <option value="2">Región 2</option>
+                      <option value="3">Región 3</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6">
+                    <select class="form-select border py-3">
+                      <option selected>Tipo de Inmueble</option>
+                      <option value="1">Tipo de Inmueble 1</option>
+                      <option value="2">Tipo de Inmueble 2</option>
+                      <option value="3">Tipo de Inmueble 3</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6">
+                    <select class="form-select border py-3">
+                      <option selected>Comuna</option>
+                      <option value="1">Comuna 1</option>
+                      <option value="2">Comuna 2</option>
+                      <option value="3">Comuna 3</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-2">
+                    <select class="form-select border py-3">
+                      <option selected>Precio</option>
+                      <option value="1">UF</option>
+                      <option value="2">Pesos</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-2">
+                    <div>
+                      <input
+                        type="number"
+                        class="form-control border py-3"
+                        placeholder="Desde"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div>
+                      <input
+                        type="number"
+                        class="form-control border py-3"
+                        placeholder="Hasta"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <select class="form-select border py-3">
+                      <option selected>Superficie (m<sup>2</sup>)</option>
+                      <option value="1">100m2</option>
+                      <option value="2">150m2</option>
+                      <option value="2">200m2</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="py-1">
+                      <select class="form-select border py-3">
+                        <option selected>Habitaciones</option>
+                        <option value="1">1-2</option>
+                        <option value="2">2-3</option>
+                        <option value="2">4</option>
+                      </select>
+                    </div>
+
+                    <div class="py-1">
+                      <select class="form-select border py-3">
+                        <option selected>Baños</option>
+                        <option value="1">1-2</option>
+                        <option value="2">2-3</option>
+                        <option value="2">4</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-end">
+                    <button
+                      type="submit"
+                      class="btn btn-primary btn-block py-2 bg-white text-dark border-0"
+                    >
+                      Buscar
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <!-- Filter search End -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="hero-carousel"
+        class="carousel slide carousel_screen"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+      >
+        <div
+          class="carousel-item active"
+          style="
+            background-image: url(/assets/img/hero-carousel/hero-carousel-1.jpg);
+          "
+        ></div>
+        <div
+          class="carousel-item"
+          style="
+            background-image: url(/assets/img/hero-carousel/hero-carousel-2.jpg);
+          "
+        ></div>
+        <a
+          class="carousel-control-prev"
+          href="#hero-carousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bi bi-chevron-left"
+            aria-hidden="true"
+          ></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#hero-carousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bi bi-chevron-right"
+            aria-hidden="true"
+          ></span>
+        </a>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- ======= Property detail Section ======= -->
+    <div class="outstanding-properties">
+      <div class="container wow fadeInUp" data-wow-delay="0.1s">
+        <div class="section-header">
+          <h2>Propiedad</h2>
+        </div>
+        <div
+          class="owl-carousel properties-carousel wow fadeInUp py-5"
+          data-wow-delay="0.1s"
+        >
+          <!-- Start Item 1 -->
+          <div class="position-relative overflow-hidden">
+            <a href=""
+              ><img
+                class="img-fluid"
+                src="/assets/img/properties/property-4.jpg"
+                alt=""
+            /></a>
+          </div>
+          <!-- End Item 1 -->
+
+          <!-- Start Item 2 -->
+          <div class="position-relative overflow-hidden">
+            <a href=""
+              ><img
+                class="img-fluid"
+                src="/assets/img/properties/property-4.jpg"
+                alt=""
+            /></a>
+          </div>
+          <!-- End Item 2 -->
+
+          <!-- Start Item 3 -->
+          <div class="position-relative overflow-hidden">
+            <a href=""
+              ><img
+                class="img-fluid"
+                src="/assets/img/properties/property-4.jpg"
+                alt=""
+            /></a>
+          </div>
+          <!-- End Item 3 -->
+
+          <!-- Start Item 4 -->
+          <div class="position-relative overflow-hidden">
+            <a href=""
+              ><img
+                class="img-fluid"
+                src="/assets/img/properties/property-4.jpg"
+                alt=""
+            /></a>
+          </div>
+          <!-- End Item 4 -->
+        </div>
+      </div>
+    </div>
+    <!-- Property detail End -->
+
+    <!-- ======= Property detail Section ======= -->
+    <div class="property">
+      <div class="container py-5 about-us">
+        <div class="wow fadeInUp" data-wow-delay="0.1s"></div>
+        <div class="row g-5">
+          <div class="col-lg-9">
+            <div>
+              <h1>Lujosa Oficina en venta la Dehesa</h1>
+            </div>
+
+            <!-- Property details -->
+            <div class="p-4 pb-0 card-props">
+              <div>
+                <h2>Características</h2>
+              </div>
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <th scope="row">Operación</th>
+                    <td>Venta</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Tipo de propiedad</th>
+                    <td>Casa</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Precio UF</th>
+                    <td>8.843</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Tipo CLP</th>
+                    <td>$302.000.000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">M<sup>2</sup></th>
+                    <td>118<sup>m2</sup></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Habitaciones</th>
+                    <td>5</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Baños</th>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Estacionamiento(s)</th>
+                    <td>2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Property description -->
+            <div class="position-relative overflow-hidden px-4 py-3">
+              <h5 class="text-uppercase text-black-50">Descripción</h5>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+                in eum? Possimus officiis expedita unde voluptatum explicabo.
+                Obcaecati error, officia, eius ullam neque porro autem ab a
+                molestias inventore magnam.
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+                in eum? Possimus officiis expedita unde voluptatum explicabo.
+                Obcaecati error, officia, eius ullam neque porro autem ab a
+                molestias inventore magnam.
+              </p>
+
+              <ul>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                  ipsam.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                  ipsam.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+                  ipsam.
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 advanced-search bg-section">
+            <form>
+              <div class="corredor-contact my-5">
+                <div class="d-flex justify-content-center">
+                  <img
+                    src="/assets/img/user-profile/team-1.jpg"
+                    class="rounded-circle w-50"
+                    alt="Cinque Terre"
+                  />
+                </div>
+                <div
+                  class="py-2 d-flex flex-column justify-content-center text-dark"
+                >
+                  <h5 class="text-center">Lionel Messi</h5>
+                  <div class="d-flex flex-column justify-content-center">
+                    <span
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <i class="bi bi-envelope-open"></i>
+                      <small href="tel:+56912345678"
+                        >correocorredor@gmail.com</small
+                      >
+                    </span>
+                    <span
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <i class="bi bi-envelope-open"></i>
+                      <small href="tel:+56912345678">+56 9 12345678</small>
+                    </span>
+
+                    <div class="w-100 d-flex justify-content-center">
+                      <button type="button" class="btn btn-default">
+                        Contactar por whatsapp
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <hr />
+
+                <div class="py-2 d-flex flex-column justify-content-center">
+                  <h5 class="text-center text-white">Contactar al corredor</h5>
+                  <div class="d-flex flex-column justify-content-start">
+                    <form>
+                      <div class="form-group my-2">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          aria-describedby="emailHelp"
+                          placeholder="Nombre"
+                        />
+                      </div>
+
+                      <div class="form-group my-2">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="phone"
+                          aria-describedby="emailHelp"
+                          placeholder="Teléfono"
+                        />
+                      </div>
+
+                      <div class="form-group my-2">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="email"
+                          aria-describedby="emailHelp"
+                          placeholder="E-mail"
+                        />
+                      </div>
+
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          id="exampleFormControlTextarea1"
+                          rows="3"
+                          placeholder="Mensaje"
+                        ></textarea>
+                      </div>
+
+                      <div class="col-md-12 mt-4">
+                        <button
+                          type="submit"
+                          class="btn btn-dark border btn-rounded w-100 btn-circle"
+                        >
+                          Enviar
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="position-relative overflow-hidden px-4 py-3">
+          <h5 class="text-uppercase text-black-50">Ubicacón de la propiedad</h5>
+          <div class="col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+            <iframe
+              class="position-relative rounded w-100 h-100"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+              frameborder="0"
+              style="min-height: 400px; border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-content position-relative">
+        <div class="container">
+          <div class="row w-100">
+            <div class="col-lg-4 d-flex align-items-center">
+              <div class="footer-logo">
+                <!-- bg-danger -->
+                <!-- <img src="...logo"/> -->
+                <a href="/page-2/index.html">LOGO</a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-flex align-items-center">
+              <div class="footer-copyrigth">
+                &copy; Todos los derechos reservados
+              </div>
+            </div>
+
+            <div class="col-lg-4 d-flex align-items-center flex-column">
+              <div class="footer-navigation">
+                <div class="footer-nav-links">
+                  <ul>
+                    <li>
+                      <button
+                        type="button"
+                        class="btn btn-dark btn-circle btn-sm"
+                      >
+                        <a href="#">
+                          <i class="bi bi-facebook"></i>
+                        </a>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button
+                        type="button"
+                        class="btn btn-dark btn-circle btn-sm"
+                      >
+                        <a href="#">
+                          <i class="bi bi-instagram"></i>
+                        </a>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button
+                        type="button"
+                        class="btn btn-dark btn-circle btn-sm"
+                      >
+                        <a href="#">
+                          <i class="bi bi-twitter"></i>
+                        </a>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button
+                        type="button"
+                        class="btn btn-dark btn-circle btn-sm"
+                      >
+                        <a href="#">
+                          <i class="bi bi-linkedin"></i>
+                        </a>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-nav-address">
+                <ul>
+                  <li>
+                    <i class="bi bi-geo-alt"></i>
+                    <span
+                      >RentalProp Spa Apoquindo 6410 Of. 605, Las Condes</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-telephone"></i>
+                    <span
+                      >RentalProp Spa Apoquindo 6410 Of. 605, Las Condes</span
+                    >
+                  </li>
+                  <li>
+                    <i class="bi bi-envelope-open mr-3"></i>
+                    <span
+                      >RentalProp Spa Apoquindo 6410 Of. 605, Las Condes</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/vendor/aos/aos.js"></script>
+    <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="/assets/vendor/php-email-form/validate.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/lib/wow/wow.min.js"></script>
+    <script src="/assets/lib/easing/easing.min.js"></script>
+    <script src="/assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/owlCarousel.js"></script>
+  </body>
+</html>
