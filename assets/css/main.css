@@ -867,7 +867,7 @@ section {
 # Contact Form Section
 --------------------------------------------------------------*/
 .contact-form {
-  background-image: url('/assets/img/hero-carousel/hero-carousel-1.jpg');
+  background-image: url('assets/img/hero-carousel/hero-carousel-1.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2998,7 +2998,7 @@ footer .container .footer-nav {
 }
 
 .about .card-item .card-bg {
-  background-image: url('/assets/img/about/about-team.jpg');
+  background-image: url('assets/img/about/about-team.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3037,7 +3037,7 @@ footer .container .footer-nav {
 # Contact Section
 --------------------------------------------------------------*/
 .contact {
-  background-image: url('/assets/img/hero-carousel/hero-carousel-2.jpg');
+  background-image: url('assets/img/hero-carousel/hero-carousel-2.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
